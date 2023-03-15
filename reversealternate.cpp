@@ -9,10 +9,10 @@ void printArray(int arr[], int n){
     }
     cout<< endl;
 }
-void swapalternate(int arr[], int size){
+void  swapalternate(int arr[], int size){
 
     for(int i =0; i<size; i+=2){
-        if(i+1 < size){
+        if(i+1 < size){  // we re checking if the index lies inside the length of an array
             swap(arr[i], arr[i+1]);
         }
 
